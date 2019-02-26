@@ -5,6 +5,7 @@ position: absolute/relative/fixed
 
 /***** 공통사항 *****/
 .wrap {width:100%; max-width:1400px; margin:auto;}
+.main_tit {padding: 12px 0; border-bottom: 1px solid #999;}
 
 /***** tops *****/
 .tops {width: 100%; padding: 8px 16px; background-color:#fff; 
@@ -23,7 +24,11 @@ position: absolute/relative/fixed
 
 /***** prjs *****/
 .prjs {width: 100%; margin: 100px auto;}
-.prj_tit {padding: 12px 0; border-bottom: 1px solid #ccc;}
 .prjs > ul {margin-top: 50px; width: 101%; margin-left: -0.5%;}
-.prj {float: left; width: 24%; margin: 0.5%; position: relative;}
-.prj > .sub_tit {padding: 16px; background-color: rgba(0,0,0,0.9); color: #fff; position: absolute; top: 0; left: 0;}
+.prj {width: 24%; margin: 0.5%; float: left; position: relative;}
+.prj:hover {opacity: 0.9;}
+.prj > .sub_tit {background-color: rgba(0,0,0,0.9); color:#fff; padding:8px; position: absolute; top: 0; left: 0;}
+
+/***** abouts *****/
+.abouts {width: 100%; margin: 100px auto;}
+.about_cont {margin: 24px 0;}
