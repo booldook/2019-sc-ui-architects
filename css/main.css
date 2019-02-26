@@ -1,3 +1,8 @@
+/*
+float: left/right
+position: absolute/relative/fixed
+*/
+
 /***** 공통사항 *****/
 .wrap {width:100%; max-width:1400px; margin:auto;}
 
@@ -12,8 +17,8 @@
 .nav:hover {background-color: #ccc;}
 
 /***** bans *****/
-.bans {opacity: 0.5;}
-.ban_tit {font-size: 36px; letter-spacing: 4px;}
+.bans {position: relative;}
+.ban_tit {font-size: 36px; letter-spacing: 4px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
 .ban_tit > span {font-weight: bold; margin-right:16px; background-color: rgba(0,0,0,0.5); padding:8px 12px;}
 
 
