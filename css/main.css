@@ -24,3 +24,6 @@ position: absolute/relative/fixed
 /***** prjs *****/
 .prjs {width: 100%; margin: 100px auto;}
 .prj_tit {padding: 12px 0; border-bottom: 1px solid #ccc;}
+.prjs > ul {margin-top: 50px; width: 101%; margin-left: -0.5%;}
+.prj {float: left; width: 24%; margin: 0.5%; position: relative;}
+.prj > .sub_tit {padding: 16px; background-color: rgba(0,0,0,0.9); color: #fff; position: absolute; top: 0; left: 0;}
