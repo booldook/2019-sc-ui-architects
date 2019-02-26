@@ -13,6 +13,8 @@
 
 /***** bans *****/
 .bans {opacity: 0.5;}
+.ban_tit {font-size: 36px; letter-spacing: 4px;}
+.ban_tit > span {font-weight: bold; margin-right:16px; background-color: rgba(0,0,0,0.5); padding:8px 12px;}
 
 
 .sample {font-size: 100px; font-weight: bold;}
