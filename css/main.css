@@ -1,8 +1,3 @@
-/*
-float: left/right
-position: absolute/relative/fixed
-*/
-
 /***** 공통사항 *****/
 .wrap {width:100%; max-width:1400px; margin:auto;}
 .main_tit {padding: 12px 0; border-bottom: 1px solid #999;}
@@ -32,3 +27,13 @@ position: absolute/relative/fixed
 /***** abouts *****/
 .abouts {width: 100%; margin: 100px auto;}
 .about_cont {margin: 24px 0;}
+.abouts > ul {margin-top: 50px; width: 101%; margin-left: -0.5%;}
+.member {width: 24%; margin: 0.5%; float: left;}
+.member_name {margin: 16px 0;}
+.member_job {margin: 16px 0; color:#999;}
+.member_cont {margin: 16px 0;}
+.bt_contact {padding: 12px; background: #eee; text-align: center; cursor: pointer;}
+.bt_contact:hover {background-color: #333; color:#fff;}
+.member > div {overflow: hidden;}
+.member > div > img {transition: transform 1s; }
+.member > div > img:hover {transform: scale(1.1);}
