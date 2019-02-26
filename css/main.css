@@ -18,8 +18,9 @@ position: absolute/relative/fixed
 
 /***** bans *****/
 .bans {position: relative;}
-.ban_tit {font-size: 36px; letter-spacing: 4px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+.ban_tit {font-size: 36px; letter-spacing: 4px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); color: #fff;}
 .ban_tit > span {font-weight: bold; margin-right:16px; background-color: rgba(0,0,0,0.5); padding:8px 12px;}
 
-
-.sample {font-size: 100px; font-weight: bold;}
+/***** prjs *****/
+.prjs {width: 100%; margin: 100px auto;}
+.prj_tit {padding: 12px 0; border-bottom: 1px solid #ccc;}
