@@ -39,5 +39,7 @@
 .member > div > img:hover {transform: scale(1.1);}
 
 /***** contacts *****/
-.contacts {width:100%; margin:100px auto;}
-.contact_cont {margin:24px 0;}
+.contacts {width: 100%; margin: 100px auto;}
+.contact_cont {margin: 24px 0;}
+li.contact {margin: 8px 0;}
+li.contact > input {width: 100%; padding: 12px; border: 1px solid #ccc;}
