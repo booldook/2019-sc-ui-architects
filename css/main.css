@@ -10,6 +10,16 @@
 		1rem 			: 16 px
 		1.125rem 	: 18 px
 		1.25rem 	: 20 px
+
+		현재문서에서...
+		4px		: 0.25rem
+		8px		: 0.5rem
+		10px 	: 0.625rem
+		12px 	:	0.75rem
+		16px	:	1rem
+		24px	: 1.5rem
+		50px	:	3rem
+		100px	:	6rem
 */
 /***** 공통사항 *****/
 .wrap {width:100%; max-width:1400px; margin:auto;}
@@ -22,7 +32,7 @@
 .logo:hover {background-color: #ccc;}
 .logo > span {font-weight: bold; margin-right:0.5rem;}
 .navs {float: right;}
-.nav {float: left; padding: 0.75rem 10.5rem; cursor: pointer;}
+.nav {float: left; padding: 0.75rem 1.125rem; cursor: pointer;}
 .nav:hover {background-color: #ccc;}
 
 /***** bans *****/
@@ -63,3 +73,5 @@ li.contact > input {width: 100%; padding: 0.75rem; border: 1px solid #ccc;}
 
 /***** footer *****/
 footer {width: 100%; margin-top: 6rem; background-color: #111; text-align: center; color: #f8f8f8; padding: 2rem 0;}
+
+/***** 반응형 처리 *****/
