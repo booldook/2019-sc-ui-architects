@@ -26,7 +26,7 @@
 .main_tit {padding: 0.75rem 0; border-bottom: 1px solid #999;}
 
 /***** tops *****/
-.tops {width: 100%; padding: 0.5rem 1rem; background-color:#fff; 
+.tops {width: 100%; padding: 0.5rem 1rem; background-color:#fff;
 	box-shadow: 0 0 0.625rem rgba(0,0,0,0.4); letter-spacing: 0.25rem; position: fixed; top: 0; left: 0; z-index: 9999;}
 .logo {float: left; padding: 0.75rem; cursor: pointer;}
 .logo:hover {background-color: #ccc;}
@@ -36,7 +36,7 @@
 .nav:hover {background-color: #ccc;}
 
 /***** bans *****/
-.bans {position: relative;}
+.bans {position: relative; margin-top: 3.5rem;}
 .ban_tit {font-size: 2rem; letter-spacing: 0.25rem; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); color: #fff;}
 .ban_tit > span {font-weight: bold; margin-right:1rem; background-color: rgba(0,0,0,0.5); padding:0.5rem 0.75rem;}
 
@@ -79,19 +79,29 @@ footer {width: 100%; margin-top: 6rem; background-color: #111; text-align: cente
 /***** 769px ~ 1024px *****/
 @media screen and (max-width: 1024px) {
 	html, body {font-size: 18px;}
+	.wrap {width:96%;}
+	.ban_tit {font-size:3vw;}
 }
 
 /***** 481px ~ 768px *****/
 @media screen and (max-width: 768px) {
 	html, body {font-size: 20px;}
+	.prj {width: 49%;}
+	.member {width: 49%;}
+	.ban_tit {font-size:4vw;}
 }
 
 /***** 321px ~ 480px *****/
 @media screen and (max-width: 480px) {
 	html, body {font-size: 22px;}
+	.navs {display: none;}
+	.prj {width: 99%;}
+	.member {width: 99%;}
+	.ban_tit {font-size:5vw;}
 }
 
 /***** 0 ~ 320px *****/
 @media screen and (max-width: 320px) {
 	html, body {font-size: 24px;}
+	.ban_tit {font-size:6vw;}
 }
