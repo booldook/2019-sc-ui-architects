@@ -43,5 +43,7 @@
 .contact_cont {margin: 24px 0;}
 li.contact {margin: 8px 0;}
 li.contact > input {width: 100%; padding: 12px; border: 1px solid #ccc;}
+.contact:last-child {margin-top: 24px;}
 .bt_send {padding: 12px 16px; background-color: #111; color: #f8f8f8; cursor: pointer;}
 .bt_send:hover {background-color: #ccc; color: #111;}
+.loc {margin-top: 24px;}
